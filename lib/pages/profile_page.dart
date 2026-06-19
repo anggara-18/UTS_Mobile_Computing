@@ -1,5 +1,3 @@
-// lib/pages/profile_page.dart
-
 import 'package:flutter/material.dart';
 import '../models/student.dart';
 
@@ -56,7 +54,7 @@ class ProfilePage extends StatelessWidget {
       backgroundColor: colorScheme.surfaceContainerLowest,
       body: CustomScrollView(
         slivers: [
-          // ── AppBar dengan foto di header ────────────────────────────
+          //  AppBar dengan foto di header
           SliverAppBar(
             expandedHeight: 280,
             pinned: true,
@@ -105,7 +103,7 @@ class ProfilePage extends StatelessWidget {
             ),
           ),
 
-          // ── Body: detail info ────────────────────────────────────────
+          //  Body: detail info
           SliverToBoxAdapter(
             child: Padding(
               padding: const EdgeInsets.all(24),
